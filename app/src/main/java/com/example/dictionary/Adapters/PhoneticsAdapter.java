@@ -21,6 +21,11 @@ public class PhoneticsAdapter extends RecyclerView.Adapter<PhoneticViewHolder> {
     private Context context;
     private List<Phonetics> phoneticsList;
 
+    public PhoneticsAdapter(Context context, List<Phonetics> phoneticsList) {
+        this.context = context;
+        this.phoneticsList = phoneticsList;
+    }
+
     @NonNull
     @Override
     public PhoneticViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
