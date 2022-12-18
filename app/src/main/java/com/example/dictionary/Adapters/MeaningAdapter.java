@@ -35,6 +35,8 @@ public class MeaningAdapter extends RecyclerView.Adapter<MeaningsViewHolder> {
         holder.textView_partsOfSpeech.setText("Parts of Speech:" + meaningsList.get(position).getPartOfSpeech());
         holder.recycler_definitions.setHasFixedSize(true);
         holder.recycler_definitions.setLayoutManager(new GridLayoutManager(context, 1));
+        DefinitionAdapter definitionAdapter = new DefinitionAdapter(context, meaningsList.get(position).getDefinitions());
+        holder.recycler_definitions.setAdapter(definitionAdapter);
     }
 
     @Override
