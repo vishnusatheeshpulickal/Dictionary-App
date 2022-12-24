@@ -6,7 +6,7 @@
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
     android:layout_margin="8dp"
-    app:cardBackgroundColor="@color/grey">
+    app:cardBackgroundColor="@color/background">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:id="@+id/textView_definition"
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text="Definition"
@@ -25,7 +25,7 @@
             android:id="@+id/textView_example"
             android:textStyle="normal"
             android:textSize="18sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text="Example"
@@ -34,7 +34,7 @@
         <TextView
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text="Synonyms"
@@ -48,7 +48,7 @@
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
             android:textSize="16sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text=""
@@ -57,7 +57,7 @@
         <TextView
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text="Antonyms"
@@ -71,7 +71,7 @@
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
             android:textSize="16sp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/primary"
             android:textAlignment="center"
             android:padding="8dp"
             android:text=""

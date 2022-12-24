@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,7 +15,7 @@
             android:layout_margin="16sp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/yellow"
+            app:cardBackgroundColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <androidx.appcompat.widget.SearchView
@@ -34,7 +34,7 @@
                 android:id="@+id/textView_word"
                 android:textSize="24sp"
                 android:text="Word"
-                android:textColor="@color/yellow"
+                android:textColor="@color/primary"
                 android:textAlignment="center"
                 android:padding="8dp"
                 android:textStyle="italic"
@@ -43,11 +43,11 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_phonetics"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content" />
             <TextView
                 android:textSize="24sp"
                 android:text="Meanings"
-                android:textColor="@color/yellow"
+                android:textColor="@color/primary"
                 android:textAlignment="center"
                 android:padding="8dp"
                 android:textStyle="italic"

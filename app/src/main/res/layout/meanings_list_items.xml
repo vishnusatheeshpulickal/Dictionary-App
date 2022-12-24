@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
-    app:cardBackgroundColor="@color/yellow"
+    app:cardBackgroundColor="@color/secondary"
     android:layout_marginTop="8dp">
 
     <LinearLayout
@@ -17,7 +17,7 @@
             android:id="@+id/textView_partsOfSpeech"
             android:text="Exclamatory"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:padding="8dp"
             android:textStyle="bold"
@@ -27,7 +27,9 @@
             android:id="@+id/recycler_definitions"
             android:layout_margin="8dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

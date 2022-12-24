@@ -4,11 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
-        <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/content_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/content_main.xml" value="0.176" />
         <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/definitions_list_items.xml" value="0.176" />
         <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/meanings_list_items.xml" value="0.12158054711246201" />
-        <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/phonetic_list_items.xml" value="0.1" />
+        <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/layout/phonetic_list_items.xml" value="0.2" />
         <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/menu/menu_main.xml" value="0.2351851851851852" />
+        <entry key="..\:/Work Space/Playground/Dictionary/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
