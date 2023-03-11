@@ -1,5 +1,6 @@
 package com.example.dictionary.Adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -32,6 +33,7 @@ public class PhoneticsAdapter extends RecyclerView.Adapter<PhoneticViewHolder> {
         return new PhoneticViewHolder(LayoutInflater.from(context).inflate(R.layout.phonetic_list_items, parent, false));
     }
 
+    @SuppressLint("RecyclerView")
     @Override
     public void onBindViewHolder(@NonNull PhoneticViewHolder holder, int position) {
         holder.textView_phonetic.setText(phoneticsList.get(position).getText());
